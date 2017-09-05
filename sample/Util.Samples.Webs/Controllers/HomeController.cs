@@ -7,6 +7,7 @@ namespace Util.Samples.Webs.Controllers {
     {
         public IActionResult Index()
         {
+            ViewBag.username = "vicky";
             return View();
         }
 
